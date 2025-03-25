@@ -1,0 +1,94 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "category": "appetizers",
+            "items": [
+                {
+                    "name": "Crispy Onion Rings",
+                    "sub_title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                    "img": "https://media.istockphoto.com/id/865789218/photo/onion-rings-with-ketchup.webp?s=612x612&w=is&k=20&c=QTCQRn3jAsjodyn0ioBtqp24B94iU6y5ptcQXUh9uiM=",
+                    "price": "$6.00"
+                },  
+                {
+                    "name": "Thai Spring Rolls",
+                    "sub_title": "Reprehenderit modi minima, sunt quis impedit voluptatem. Saepe, sed doloribus. Amet nisi.",
+                    "img": "https://img.freepik.com/free-photo/asian-food-board-top-view_23-2148771228.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$7.00"
+                },
+                {
+                    "name": "Ancho Chilli Cheese Quesadilla",
+                    "sub_title": "Asperiores neque deserunt mollitia ratione sit sapiente veritatis debitis minima.",
+                    "img": "https://krollskorner.com/wp-content/uploads/2022/04/ChipotleQuesadilla_blog_12-5425.jpg",
+                    "price": "$6.00"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Soups",
+            "items": [
+                {
+                    "name": "Tomato Basil Soup",
+                    "sub_title": "A smooth and creamy tomato soup with fresh basil.",
+                    "img": "https://img.freepik.com/free-photo/warm-tomato-soup-serve-bowl_1150-42623.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$5.00"
+                },
+                {
+                    "name": "Chicken Corn Soup",
+                    "sub_title": "A comforting soup with chicken, corn, and spices.",
+                    "img": "https://img.freepik.com/free-photo/isolated-shot-white-bowl-with-hot-sour-soup-perfect-food-blog-menu-usage_181624-8524.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$6.50"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Salads",
+            "items": [
+                {
+                    "name": "Cesar Salad",
+                    "sub_title": "Crisp romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+                    "img": "https://img.freepik.com/free-photo/chicken-parmesan-caesar-salad-with-lettuce-cherry-tomatoes-inside-white-bowl-served-with-sauce-bread_114579-204.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$8.00"
+                },
+                {
+                    "name": "Greek Salad",
+                    "sub_title": "Fresh cucumbers, tomatoes, olives, feta cheese, and Greek dressing.",
+                    "img": "https://img.freepik.com/free-photo/delicious-salad-plate-high-angle_23-2149598995.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$7.50"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Sandwiches",
+            "items": [
+                {
+                    "name": "Grilled Chicken Sandwich",
+                    "sub_title": "Grilled chicken breast, lettuce, tomato, and mayo on a toasted bun.",
+                    "img": "https://img.freepik.com/free-photo/tendir-doner-with-chicken-table_140725-2443.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$9.00"
+                },
+                {
+                    "name": "Club Sandwich",
+                    "sub_title": "Triple-layer sandwich with turkey, bacon, lettuce, tomato, and mayo.",
+                    "img": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1742920069~exp=1742923669~hmac=590a19f3cb6f7146afb6f03e82dadc0efa9694f8602a07414d3f96a19087e02b&w=826",
+                    "price": "$10.00"
+                },
+                {
+                    "name": "Grilled Chicken Sandwich",
+                    "sub_title": "Grilled chicken breast, lettuce, tomato, and mayo on a toasted bun.",
+                    "img": "https://img.freepik.com/free-photo/tendir-doner-with-chicken-table_140725-2443.jpg?ga=GA1.1.2021432276.1729592645&semt=ais_hybrid",
+                    "price": "$9.00"
+                },
+                {
+                    "name": "Club Sandwich",
+                    "sub_title": "Triple-layer sandwich with turkey, bacon, lettuce, tomato, and mayo.",
+                    "img": "https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1742920069~exp=1742923669~hmac=590a19f3cb6f7146afb6f03e82dadc0efa9694f8602a07414d3f96a19087e02b&w=826",
+                    "price": "$10.00"
+                }
+            ]
+        }
+    ]
+}
