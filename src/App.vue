@@ -19,8 +19,8 @@ export default {
   data() {
     return {
       MenuData,
-      searchQuery: '', // Store search input value
-      selectedCategory: '' // Store selected category
+      searchQuery: '',
+      selectedCategory: ''
     };
   }
 };

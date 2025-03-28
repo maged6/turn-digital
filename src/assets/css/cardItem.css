@@ -2,6 +2,12 @@
   background-color: ghostwhite;
   max-width: 353px;
   min-width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+.card-item:hover {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  transform: scale(1.01);
+  cursor: pointer;
 }
 .card-item-img img {
   width: 100%;

@@ -1,6 +1,7 @@
 @import url("./assets/css/main.css");
 @import url("./assets/css/category.css");
 @import url("./assets/css/cardItem.css");
+@import url("./assets/css/inputs.css");
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

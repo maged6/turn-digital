@@ -51,19 +51,20 @@ export default {
   },
   computed: {
     filteredCategories() {
-      if (!this.selectedCategory) {
-        return this.menuData.menu.map(item => item.category);
-      }
-      return this.menuData.menu
-        .filter(item => item.category === this.selectedCategory)
-        .map(item => item.category);
+      const categories = new Set();
+      this.menuData.menu.forEach(item => {
+        if (!this.selectedCategory || item.category === this.selectedCategory) {
+          categories.add(item.category);
+        }
+      });
+      return categories;
     },
     filteredItems() {
-      let filteredData = {};
-      this.menuData.menu.forEach((categoryItem) => {
-        if (this.selectedCategory && categoryItem.category !== this.selectedCategory) return;
+      const filteredData = new Map();
+      this.menuData.menu.forEach(({ category, items }) => {
+        if (this.selectedCategory && category !== this.selectedCategory) return;
 
-        filteredData[categoryItem.category] = categoryItem.items.filter(item =>
+        filteredData[category] = items.filter(item =>
           item.name.toLowerCase().includes(this.searchQuery.toLowerCase())
         );
       });
