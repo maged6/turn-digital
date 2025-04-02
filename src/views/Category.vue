@@ -62,8 +62,6 @@ export default {
     filteredItems() {
       const filteredData = new Map();
       this.menuData.menu.forEach(({ category, items }) => {
-        if (this.selectedCategory && category !== this.selectedCategory) return;
-
         filteredData[category] = items.filter(item =>
           item.name.toLowerCase().includes(this.searchQuery.toLowerCase())
         );
